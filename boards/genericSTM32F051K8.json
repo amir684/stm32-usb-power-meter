@@ -1,0 +1,36 @@
+{
+  "build": {
+    "core": "stm32",
+    "cpu": "cortex-m0",
+    "extra_flags": "-DSTM32F0 -DSTM32F051x8 -DSTM32F0xx",
+    "f_cpu": "48000000L",
+    "mcu": "stm32f051k8t6",
+    "product_line": "STM32F051x8",
+    "variant": "STM32F0xx/F051K(6-8)T"
+  },
+  "debug": {
+    "jlink_device": "STM32F051K8",
+    "openocd_target": "stm32f0x",
+    "svd_path": "STM32F0x1.svd"
+  },
+  "frameworks": [
+    "arduino",
+    "cmsis",
+    "stm32cube"
+  ],
+  "name": "Generic STM32F051K8T6 (8k RAM, 64k Flash)",
+  "upload": {
+    "maximum_ram_size": 8192,
+    "maximum_size": 65536,
+    "protocol": "stlink",
+    "protocols": [
+      "stlink",
+      "jlink",
+      "cmsis-dap",
+      "blackmagic",
+      "serial"
+    ]
+  },
+  "url": "https://www.st.com/en/microcontrollers-microprocessors/stm32f051k8.html",
+  "vendor": "Generic"
+}

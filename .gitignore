@@ -1,0 +1,10 @@
+.pio
+.vscode/*
+!.vscode/extensions.json
+tools/screenshots/build/
+__pycache__/
+
+# PlatformIO's placeholder folders
+lib/
+test/
+include/README
